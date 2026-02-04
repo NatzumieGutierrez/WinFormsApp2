@@ -63,6 +63,16 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap APPLE_PIE {
+            get {
+                object obj = ResourceManager.GetObject("APPLE PIE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BFAST_A {
             get {
                 object obj = ResourceManager.GetObject("BFAST A", resourceCulture);
@@ -93,6 +103,16 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BIGMAC {
+            get {
+                object obj = ResourceManager.GetObject("BIGMAC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CHK_MEAL_2 {
             get {
                 object obj = ResourceManager.GetObject("CHK MEAL 2", resourceCulture);
@@ -106,6 +126,16 @@ namespace WinFormsApp2.Properties {
         internal static System.Drawing.Bitmap CHK_MEAL_A {
             get {
                 object obj = ResourceManager.GetObject("CHK MEAL A", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap COFFEE {
+            get {
+                object obj = ResourceManager.GetObject("COFFEE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +193,16 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HOT_FUDGE_SUNDAE {
+            get {
+                object obj = ResourceManager.GetObject("HOT FUDGE SUNDAE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LNCH_VAL_MEAL_1 {
             get {
                 object obj = ResourceManager.GetObject("LNCH VAL MEAL 1", resourceCulture);
@@ -176,6 +216,36 @@ namespace WinFormsApp2.Properties {
         internal static System.Drawing.Bitmap LUNCH_VALUE_MEAL_B {
             get {
                 object obj = ResourceManager.GetObject("LUNCH VALUE MEAL B", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MCFLOAT {
+            get {
+                object obj = ResourceManager.GetObject("MCFLOAT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MCFLOAT1 {
+            get {
+                object obj = ResourceManager.GetObject("MCFLOAT1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MCFLURRY {
+            get {
+                object obj = ResourceManager.GetObject("MCFLURRY", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
