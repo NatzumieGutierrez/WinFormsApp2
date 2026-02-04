@@ -5,6 +5,7 @@ namespace WinFormsApp2
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
+        /// oioi
         [STAThread]
         static void Main()
         {
