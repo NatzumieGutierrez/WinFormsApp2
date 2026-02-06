@@ -30,28 +30,28 @@
         {
             label1 = new Label();
             groupBox1 = new GroupBox();
-            label31 = new Label();
-            label32 = new Label();
-            label33 = new Label();
-            label34 = new Label();
-            label27 = new Label();
-            label28 = new Label();
-            label29 = new Label();
-            label30 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            label25 = new Label();
-            label26 = new Label();
-            label22 = new Label();
-            label21 = new Label();
-            label20 = new Label();
-            label19 = new Label();
-            label15 = new Label();
-            label14 = new Label();
+            name20lbl = new Label();
+            name19lbl = new Label();
+            name18lbl = new Label();
+            name17lbl = new Label();
+            name15lbl = new Label();
+            name14lbl = new Label();
+            name13lbl = new Label();
+            name12lbl = new Label();
+            name10lbl = new Label();
+            name9lbl = new Label();
+            name8lbl = new Label();
+            name7lbl = new Label();
+            name5lbl = new Label();
+            name4lbl = new Label();
+            name3lbl = new Label();
+            name2lbl = new Label();
+            name16lbl = new Label();
+            name11lbl = new Label();
             pictureBox16 = new PictureBox();
             pictureBox11 = new PictureBox();
             pictureBox17 = new PictureBox();
-            label13 = new Label();
+            name6lbl = new Label();
             pictureBox18 = new PictureBox();
             pictureBox12 = new PictureBox();
             pictureBox19 = new PictureBox();
@@ -68,7 +68,7 @@
             pictureBox3 = new PictureBox();
             pictureBox10 = new PictureBox();
             pictureBox2 = new PictureBox();
-            label12 = new Label();
+            name1lbl = new Label();
             pictureBox1 = new PictureBox();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             groupBox2 = new GroupBox();
@@ -76,15 +76,15 @@
             Employee = new RadioButton();
             with = new RadioButton();
             Senior = new RadioButton();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            exitbttn = new Button();
+            cancelbttn = new Button();
+            calculate = new Button();
             discountedtxtbox = new TextBox();
-            button4 = new Button();
-            textBox4 = new TextBox();
+            newbttn = new Button();
+            discounttxtbox = new TextBox();
             pricetextbox = new TextBox();
             label6 = new Label();
-            textbox2 = new TextBox();
+            quantitytxtbox = new TextBox();
             itemnametxtbox = new TextBox();
             label5 = new Label();
             label4 = new Label();
@@ -99,7 +99,7 @@
             label7 = new Label();
             groupBox4 = new GroupBox();
             changetxtbox = new TextBox();
-            textBox9 = new TextBox();
+            cashrenderedtxtbox = new TextBox();
             label11 = new Label();
             label10 = new Label();
             groupBox5 = new GroupBox();
@@ -118,7 +118,7 @@
             button7 = new Button();
             button9 = new Button();
             button8 = new Button();
-            button5 = new Button();
+            enter = new Button();
             label16 = new Label();
             label17 = new Label();
             label18 = new Label();
@@ -163,28 +163,28 @@
             // groupBox1
             // 
             groupBox1.BackColor = SystemColors.ButtonFace;
-            groupBox1.Controls.Add(label31);
-            groupBox1.Controls.Add(label32);
-            groupBox1.Controls.Add(label33);
-            groupBox1.Controls.Add(label34);
-            groupBox1.Controls.Add(label27);
-            groupBox1.Controls.Add(label28);
-            groupBox1.Controls.Add(label29);
-            groupBox1.Controls.Add(label30);
-            groupBox1.Controls.Add(label23);
-            groupBox1.Controls.Add(label24);
-            groupBox1.Controls.Add(label25);
-            groupBox1.Controls.Add(label26);
-            groupBox1.Controls.Add(label22);
-            groupBox1.Controls.Add(label21);
-            groupBox1.Controls.Add(label20);
-            groupBox1.Controls.Add(label19);
-            groupBox1.Controls.Add(label15);
-            groupBox1.Controls.Add(label14);
+            groupBox1.Controls.Add(name20lbl);
+            groupBox1.Controls.Add(name19lbl);
+            groupBox1.Controls.Add(name18lbl);
+            groupBox1.Controls.Add(name17lbl);
+            groupBox1.Controls.Add(name15lbl);
+            groupBox1.Controls.Add(name14lbl);
+            groupBox1.Controls.Add(name13lbl);
+            groupBox1.Controls.Add(name12lbl);
+            groupBox1.Controls.Add(name10lbl);
+            groupBox1.Controls.Add(name9lbl);
+            groupBox1.Controls.Add(name8lbl);
+            groupBox1.Controls.Add(name7lbl);
+            groupBox1.Controls.Add(name5lbl);
+            groupBox1.Controls.Add(name4lbl);
+            groupBox1.Controls.Add(name3lbl);
+            groupBox1.Controls.Add(name2lbl);
+            groupBox1.Controls.Add(name16lbl);
+            groupBox1.Controls.Add(name11lbl);
             groupBox1.Controls.Add(pictureBox16);
             groupBox1.Controls.Add(pictureBox11);
             groupBox1.Controls.Add(pictureBox17);
-            groupBox1.Controls.Add(label13);
+            groupBox1.Controls.Add(name6lbl);
             groupBox1.Controls.Add(pictureBox18);
             groupBox1.Controls.Add(pictureBox12);
             groupBox1.Controls.Add(pictureBox19);
@@ -201,7 +201,7 @@
             groupBox1.Controls.Add(pictureBox3);
             groupBox1.Controls.Add(pictureBox10);
             groupBox1.Controls.Add(pictureBox2);
-            groupBox1.Controls.Add(label12);
+            groupBox1.Controls.Add(name1lbl);
             groupBox1.Controls.Add(pictureBox1);
             groupBox1.FlatStyle = FlatStyle.System;
             groupBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -211,170 +211,153 @@
             groupBox1.Size = new Size(644, 699);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
-            groupBox1.Text = "FAMCOMBO B";
+            groupBox1.Text = "ITEMS";
             groupBox1.Enter += groupBox1_Enter_1;
             // 
-            // label31
+            // name20lbl
             // 
-            label31.AutoSize = true;
-            label31.Location = new Point(518, 672);
-            label31.Name = "label31";
-            label31.Size = new Size(109, 20);
-            label31.TabIndex = 51;
-            label31.Text = "FRND MEAL B";
+            name20lbl.AutoSize = true;
+            name20lbl.Location = new Point(518, 672);
+            name20lbl.Name = "name20lbl";
+            name20lbl.Size = new Size(0, 20);
+            name20lbl.TabIndex = 51;
             // 
-            // label32
+            // name19lbl
             // 
-            label32.AutoSize = true;
-            label32.Location = new Point(392, 671);
-            label32.Name = "label32";
-            label32.Size = new Size(113, 20);
-            label32.TabIndex = 50;
-            label32.Text = "LNCH VALUE 2";
+            name19lbl.AutoSize = true;
+            name19lbl.Location = new Point(392, 671);
+            name19lbl.Name = "name19lbl";
+            name19lbl.Size = new Size(0, 20);
+            name19lbl.TabIndex = 50;
             // 
-            // label33
+            // name18lbl
             // 
-            label33.AutoSize = true;
-            label33.Location = new Point(266, 672);
-            label33.Name = "label33";
-            label33.Size = new Size(100, 20);
-            label33.TabIndex = 49;
-            label33.Text = "LNCH VALUE";
+            name18lbl.AutoSize = true;
+            name18lbl.Location = new Point(266, 672);
+            name18lbl.Name = "name18lbl";
+            name18lbl.Size = new Size(0, 20);
+            name18lbl.TabIndex = 49;
             // 
-            // label34
+            // name17lbl
             // 
-            label34.AutoSize = true;
-            label34.Location = new Point(140, 671);
-            label34.Name = "label34";
-            label34.Size = new Size(94, 20);
-            label34.TabIndex = 48;
-            label34.Text = "LNCH MEAL";
+            name17lbl.AutoSize = true;
+            name17lbl.Location = new Point(140, 671);
+            name17lbl.Name = "name17lbl";
+            name17lbl.Size = new Size(0, 20);
+            name17lbl.TabIndex = 48;
             // 
-            // label27
+            // name15lbl
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(518, 499);
-            label27.Name = "label27";
-            label27.Size = new Size(110, 20);
-            label27.TabIndex = 47;
-            label27.Text = "FRND MEAL A";
+            name15lbl.AutoSize = true;
+            name15lbl.Location = new Point(518, 499);
+            name15lbl.Name = "name15lbl";
+            name15lbl.Size = new Size(0, 20);
+            name15lbl.TabIndex = 47;
             // 
-            // label28
+            // name14lbl
             // 
-            label28.AutoSize = true;
-            label28.Location = new Point(392, 498);
-            label28.Name = "label28";
-            label28.Size = new Size(47, 20);
-            label28.TabIndex = 46;
-            label28.Text = "Price:";
+            name14lbl.AutoSize = true;
+            name14lbl.Location = new Point(392, 498);
+            name14lbl.Name = "name14lbl";
+            name14lbl.Size = new Size(0, 20);
+            name14lbl.TabIndex = 46;
             // 
-            // label29
+            // name13lbl
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(266, 499);
-            label29.Name = "label29";
-            label29.Size = new Size(111, 20);
-            label29.TabIndex = 45;
-            label29.Text = "FAMCOMBO A";
+            name13lbl.AutoSize = true;
+            name13lbl.Location = new Point(266, 499);
+            name13lbl.Name = "name13lbl";
+            name13lbl.Size = new Size(0, 20);
+            name13lbl.TabIndex = 45;
             // 
-            // label30
+            // name12lbl
             // 
-            label30.AutoSize = true;
-            label30.Location = new Point(140, 498);
-            label30.Name = "label30";
-            label30.Size = new Size(78, 20);
-            label30.TabIndex = 44;
-            label30.Text = "PALABOK";
+            name12lbl.AutoSize = true;
+            name12lbl.Location = new Point(140, 498);
+            name12lbl.Name = "name12lbl";
+            name12lbl.Size = new Size(0, 20);
+            name12lbl.TabIndex = 44;
             // 
-            // label23
+            // name10lbl
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(518, 335);
-            label23.Name = "label23";
-            label23.Size = new Size(69, 20);
-            label23.TabIndex = 43;
-            label23.Text = "BIGMAC";
+            name10lbl.AutoSize = true;
+            name10lbl.Location = new Point(518, 335);
+            name10lbl.Name = "name10lbl";
+            name10lbl.Size = new Size(0, 20);
+            name10lbl.TabIndex = 43;
+            name10lbl.Click += label23_Click;
             // 
-            // label24
+            // name9lbl
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(392, 334);
-            label24.Name = "label24";
-            label24.Size = new Size(99, 20);
-            label24.TabIndex = 42;
-            label24.Text = "CHK MEAL A";
+            name9lbl.AutoSize = true;
+            name9lbl.Location = new Point(392, 334);
+            name9lbl.Name = "name9lbl";
+            name9lbl.Size = new Size(0, 20);
+            name9lbl.TabIndex = 42;
             // 
-            // label25
+            // name8lbl
             // 
-            label25.AutoSize = true;
-            label25.Location = new Point(266, 335);
-            label25.Name = "label25";
-            label25.Size = new Size(123, 20);
-            label25.TabIndex = 41;
-            label25.Text = "PANCAKE MEAL";
+            name8lbl.AutoSize = true;
+            name8lbl.Location = new Point(266, 335);
+            name8lbl.Name = "name8lbl";
+            name8lbl.Size = new Size(0, 20);
+            name8lbl.TabIndex = 41;
             // 
-            // label26
+            // name7lbl
             // 
-            label26.AutoSize = true;
-            label26.Location = new Point(140, 334);
-            label26.Name = "label26";
-            label26.Size = new Size(113, 20);
-            label26.TabIndex = 40;
-            label26.Text = "BFAST MEAL B";
+            name7lbl.AutoSize = true;
+            name7lbl.Location = new Point(140, 334);
+            name7lbl.Name = "name7lbl";
+            name7lbl.Size = new Size(0, 20);
+            name7lbl.TabIndex = 40;
             // 
-            // label22
+            // name5lbl
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(518, 171);
-            label22.Name = "label22";
-            label22.Size = new Size(69, 20);
-            label22.TabIndex = 39;
-            label22.Text = "BFAST A";
+            name5lbl.AutoSize = true;
+            name5lbl.Location = new Point(518, 171);
+            name5lbl.Name = "name5lbl";
+            name5lbl.Size = new Size(0, 20);
+            name5lbl.TabIndex = 39;
             // 
-            // label21
+            // name4lbl
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(392, 170);
-            label21.Name = "label21";
-            label21.Size = new Size(80, 20);
-            label21.TabIndex = 38;
-            label21.Text = "APPLE PIE";
+            name4lbl.AutoSize = true;
+            name4lbl.Location = new Point(392, 170);
+            name4lbl.Name = "name4lbl";
+            name4lbl.Size = new Size(0, 20);
+            name4lbl.TabIndex = 38;
             // 
-            // label20
+            // name3lbl
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(266, 171);
-            label20.Name = "label20";
-            label20.Size = new Size(92, 20);
-            label20.TabIndex = 37;
-            label20.Text = "HOT FUDGE";
+            name3lbl.AutoSize = true;
+            name3lbl.Location = new Point(266, 171);
+            name3lbl.Name = "name3lbl";
+            name3lbl.Size = new Size(0, 20);
+            name3lbl.TabIndex = 37;
             // 
-            // label19
+            // name2lbl
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(140, 170);
-            label19.Name = "label19";
-            label19.Size = new Size(88, 20);
-            label19.TabIndex = 36;
-            label19.Text = "MCFLURRY";
+            name2lbl.AutoSize = true;
+            name2lbl.Location = new Point(140, 170);
+            name2lbl.Name = "name2lbl";
+            name2lbl.Size = new Size(0, 20);
+            name2lbl.TabIndex = 36;
             // 
-            // label15
+            // name16lbl
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(14, 671);
-            label15.Name = "label15";
-            label15.Size = new Size(90, 20);
-            label15.TabIndex = 35;
-            label15.Text = "PSTA MEAL";
+            name16lbl.AutoSize = true;
+            name16lbl.Location = new Point(14, 671);
+            name16lbl.Name = "name16lbl";
+            name16lbl.Size = new Size(0, 20);
+            name16lbl.TabIndex = 35;
             // 
-            // label14
+            // name11lbl
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(14, 498);
-            label14.Name = "label14";
-            label14.Size = new Size(97, 20);
-            label14.TabIndex = 34;
-            label14.Text = "CHK MEAL 2";
+            name11lbl.AutoSize = true;
+            name11lbl.Location = new Point(14, 498);
+            name11lbl.Name = "name11lbl";
+            name11lbl.Size = new Size(0, 20);
+            name11lbl.TabIndex = 34;
             // 
             // pictureBox16
             // 
@@ -385,6 +368,7 @@
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 33;
             pictureBox16.TabStop = false;
+            pictureBox16.Click += pictureBox16_Click;
             // 
             // pictureBox11
             // 
@@ -395,6 +379,7 @@
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 33;
             pictureBox11.TabStop = false;
+            pictureBox11.Click += pictureBox11_Click;
             // 
             // pictureBox17
             // 
@@ -405,15 +390,15 @@
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox17.TabIndex = 32;
             pictureBox17.TabStop = false;
+            pictureBox17.Click += pictureBox17_Click;
             // 
-            // label13
+            // name6lbl
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(14, 334);
-            label13.Name = "label13";
-            label13.Size = new Size(68, 20);
-            label13.TabIndex = 29;
-            label13.Text = "BFAST B";
+            name6lbl.AutoSize = true;
+            name6lbl.Location = new Point(14, 334);
+            name6lbl.Name = "name6lbl";
+            name6lbl.Size = new Size(0, 20);
+            name6lbl.TabIndex = 29;
             // 
             // pictureBox18
             // 
@@ -424,6 +409,7 @@
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.TabIndex = 31;
             pictureBox18.TabStop = false;
+            pictureBox18.Click += pictureBox18_Click;
             // 
             // pictureBox12
             // 
@@ -434,6 +420,7 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 32;
             pictureBox12.TabStop = false;
+            pictureBox12.Click += pictureBox12_Click;
             // 
             // pictureBox19
             // 
@@ -444,6 +431,7 @@
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox19.TabIndex = 30;
             pictureBox19.TabStop = false;
+            pictureBox19.Click += pictureBox19_Click;
             // 
             // pictureBox6
             // 
@@ -454,6 +442,7 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 28;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // pictureBox20
             // 
@@ -464,6 +453,7 @@
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox20.TabIndex = 29;
             pictureBox20.TabStop = false;
+            pictureBox20.Click += pictureBox20_Click;
             // 
             // pictureBox13
             // 
@@ -474,6 +464,7 @@
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 31;
             pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox13_Click;
             // 
             // pictureBox5
             // 
@@ -484,6 +475,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 23;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox14
             // 
@@ -494,6 +486,7 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 30;
             pictureBox14.TabStop = false;
+            pictureBox14.Click += pictureBox14_Click;
             // 
             // pictureBox7
             // 
@@ -504,6 +497,7 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 27;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
             // pictureBox15
             // 
@@ -514,6 +508,7 @@
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 29;
             pictureBox15.TabStop = false;
+            pictureBox15.Click += pictureBox15_Click;
             // 
             // pictureBox4
             // 
@@ -524,6 +519,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 22;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox8
             // 
@@ -534,6 +530,7 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 26;
             pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox8_Click;
             // 
             // pictureBox9
             // 
@@ -544,6 +541,7 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 25;
             pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
             // 
             // pictureBox3
             // 
@@ -554,6 +552,7 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 21;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox10
             // 
@@ -564,6 +563,7 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 24;
             pictureBox10.TabStop = false;
+            pictureBox10.Click += pictureBox10_Click;
             // 
             // pictureBox2
             // 
@@ -574,15 +574,15 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 20;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
-            // label12
+            // name1lbl
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(14, 170);
-            label12.Name = "label12";
-            label12.Size = new Size(78, 20);
-            label12.TabIndex = 14;
-            label12.Text = "MCFLOAT";
+            name1lbl.AutoSize = true;
+            name1lbl.Location = new Point(14, 170);
+            name1lbl.Name = "name1lbl";
+            name1lbl.Size = new Size(0, 20);
+            name1lbl.TabIndex = 14;
             // 
             // pictureBox1
             // 
@@ -602,15 +602,15 @@
             groupBox2.Controls.Add(Employee);
             groupBox2.Controls.Add(with);
             groupBox2.Controls.Add(Senior);
-            groupBox2.Controls.Add(button3);
-            groupBox2.Controls.Add(button2);
-            groupBox2.Controls.Add(button1);
+            groupBox2.Controls.Add(exitbttn);
+            groupBox2.Controls.Add(cancelbttn);
+            groupBox2.Controls.Add(calculate);
             groupBox2.Controls.Add(discountedtxtbox);
-            groupBox2.Controls.Add(button4);
-            groupBox2.Controls.Add(textBox4);
+            groupBox2.Controls.Add(newbttn);
+            groupBox2.Controls.Add(discounttxtbox);
             groupBox2.Controls.Add(pricetextbox);
             groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(textbox2);
+            groupBox2.Controls.Add(quantitytxtbox);
             groupBox2.Controls.Add(itemnametxtbox);
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label4);
@@ -632,6 +632,7 @@
             nodisc.TabStop = true;
             nodisc.Text = "No Discount";
             nodisc.UseVisualStyleBackColor = true;
+            nodisc.CheckedChanged += nodisc_CheckedChanged;
             // 
             // Employee
             // 
@@ -643,6 +644,7 @@
             Employee.TabStop = true;
             Employee.Text = "Employee Disc";
             Employee.UseVisualStyleBackColor = true;
+            Employee.CheckedChanged += Employee_CheckedChanged;
             // 
             // with
             // 
@@ -668,35 +670,37 @@
             Senior.UseVisualStyleBackColor = true;
             Senior.CheckedChanged += radioButton1_CheckedChanged;
             // 
-            // button3
+            // exitbttn
             // 
-            button3.BackColor = Color.Red;
-            button3.Location = new Point(329, 153);
-            button3.Name = "button3";
-            button3.Size = new Size(118, 37);
-            button3.TabIndex = 12;
-            button3.Text = "EXIT";
-            button3.UseVisualStyleBackColor = false;
+            exitbttn.BackColor = Color.Red;
+            exitbttn.Location = new Point(329, 153);
+            exitbttn.Name = "exitbttn";
+            exitbttn.Size = new Size(118, 37);
+            exitbttn.TabIndex = 12;
+            exitbttn.Text = "EXIT";
+            exitbttn.UseVisualStyleBackColor = false;
+            exitbttn.Click += exitbttn_Click;
             // 
-            // button2
+            // cancelbttn
             // 
-            button2.BackColor = Color.DeepSkyBlue;
-            button2.Location = new Point(329, 114);
-            button2.Name = "button2";
-            button2.Size = new Size(118, 37);
-            button2.TabIndex = 11;
-            button2.Text = "CANCEL";
-            button2.UseVisualStyleBackColor = false;
+            cancelbttn.BackColor = Color.DeepSkyBlue;
+            cancelbttn.Location = new Point(329, 114);
+            cancelbttn.Name = "cancelbttn";
+            cancelbttn.Size = new Size(118, 37);
+            cancelbttn.TabIndex = 11;
+            cancelbttn.Text = "CANCEL";
+            cancelbttn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // calculate
             // 
-            button1.BackColor = Color.FromArgb(255, 128, 0);
-            button1.Location = new Point(329, 36);
-            button1.Name = "button1";
-            button1.Size = new Size(119, 37);
-            button1.TabIndex = 10;
-            button1.Text = "CALCULATE";
-            button1.UseVisualStyleBackColor = false;
+            calculate.BackColor = Color.FromArgb(255, 128, 0);
+            calculate.Location = new Point(329, 36);
+            calculate.Name = "calculate";
+            calculate.Size = new Size(119, 37);
+            calculate.TabIndex = 10;
+            calculate.Text = "CALCULATE";
+            calculate.UseVisualStyleBackColor = false;
+            calculate.Click += calculate_Click_1;
             // 
             // discountedtxtbox
             // 
@@ -705,22 +709,23 @@
             discountedtxtbox.Size = new Size(71, 23);
             discountedtxtbox.TabIndex = 9;
             // 
-            // button4
+            // newbttn
             // 
-            button4.BackColor = Color.YellowGreen;
-            button4.Location = new Point(329, 75);
-            button4.Name = "button4";
-            button4.Size = new Size(118, 37);
-            button4.TabIndex = 13;
-            button4.Text = "NEW";
-            button4.UseVisualStyleBackColor = false;
+            newbttn.BackColor = Color.YellowGreen;
+            newbttn.Location = new Point(329, 75);
+            newbttn.Name = "newbttn";
+            newbttn.Size = new Size(118, 37);
+            newbttn.TabIndex = 13;
+            newbttn.Text = "NEW";
+            newbttn.UseVisualStyleBackColor = false;
+            newbttn.Click += newbttn_Click;
             // 
-            // textBox4
+            // discounttxtbox
             // 
-            textBox4.Location = new Point(139, 122);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(71, 23);
-            textBox4.TabIndex = 8;
+            discounttxtbox.Location = new Point(139, 122);
+            discounttxtbox.Name = "discounttxtbox";
+            discounttxtbox.Size = new Size(71, 23);
+            discounttxtbox.TabIndex = 8;
             // 
             // pricetextbox
             // 
@@ -738,12 +743,12 @@
             label6.TabIndex = 4;
             label6.Text = "Discounted Amount:";
             // 
-            // textbox2
+            // quantitytxtbox
             // 
-            textbox2.Location = new Point(139, 42);
-            textbox2.Name = "textbox2";
-            textbox2.Size = new Size(71, 23);
-            textbox2.TabIndex = 6;
+            quantitytxtbox.Location = new Point(139, 42);
+            quantitytxtbox.Name = "quantitytxtbox";
+            quantitytxtbox.Size = new Size(71, 23);
+            quantitytxtbox.TabIndex = 6;
             // 
             // itemnametxtbox
             // 
@@ -827,6 +832,7 @@
             qty_totaltxtbox.Name = "qty_totaltxtbox";
             qty_totaltxtbox.Size = new Size(309, 23);
             qty_totaltxtbox.TabIndex = 14;
+            qty_totaltxtbox.TextChanged += qty_totaltxtbox_TextChanged;
             // 
             // label9
             // 
@@ -859,7 +865,7 @@
             // 
             groupBox4.BackColor = SystemColors.ButtonFace;
             groupBox4.Controls.Add(changetxtbox);
-            groupBox4.Controls.Add(textBox9);
+            groupBox4.Controls.Add(cashrenderedtxtbox);
             groupBox4.Controls.Add(label11);
             groupBox4.Controls.Add(label10);
             groupBox4.Location = new Point(12, 378);
@@ -877,14 +883,15 @@
             changetxtbox.Size = new Size(218, 57);
             changetxtbox.TabIndex = 15;
             // 
-            // textBox9
+            // cashrenderedtxtbox
             // 
-            textBox9.Font = new Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox9.Location = new Point(19, 47);
-            textBox9.Multiline = true;
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(191, 57);
-            textBox9.TabIndex = 14;
+            cashrenderedtxtbox.Font = new Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cashrenderedtxtbox.Location = new Point(19, 47);
+            cashrenderedtxtbox.Multiline = true;
+            cashrenderedtxtbox.Name = "cashrenderedtxtbox";
+            cashrenderedtxtbox.Size = new Size(191, 57);
+            cashrenderedtxtbox.TabIndex = 14;
+            cashrenderedtxtbox.TextChanged += cashrenderedtxtbox_TextChanged;
             // 
             // label11
             // 
@@ -925,7 +932,7 @@
             groupBox5.Controls.Add(button7);
             groupBox5.Controls.Add(button9);
             groupBox5.Controls.Add(button8);
-            groupBox5.Controls.Add(button5);
+            groupBox5.Controls.Add(enter);
             groupBox5.Location = new Point(12, 505);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(455, 201);
@@ -1098,16 +1105,16 @@
             button8.Text = "-";
             button8.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // enter
             // 
-            button5.BackColor = Color.ForestGreen;
-            button5.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.Location = new Point(14, 19);
-            button5.Name = "button5";
-            button5.Size = new Size(149, 174);
-            button5.TabIndex = 0;
-            button5.Text = "ENTER";
-            button5.UseVisualStyleBackColor = false;
+            enter.BackColor = Color.ForestGreen;
+            enter.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            enter.Location = new Point(14, 19);
+            enter.Name = "enter";
+            enter.Size = new Size(149, 174);
+            enter.TabIndex = 0;
+            enter.Text = "ENTER";
+            enter.UseVisualStyleBackColor = false;
             // 
             // label16
             // 
@@ -1201,13 +1208,13 @@
         private Label label3;
         private Label label2;
         private TextBox discountedtxtbox;
-        private TextBox textBox4;
+        private TextBox discounttxtbox;
         private TextBox pricetextbox;
-        private TextBox textbox2;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private Button button4;
+        private TextBox quantitytxtbox;
+        private Button exitbttn;
+        private Button cancelbttn;
+        private Button calculate;
+        private Button newbttn;
         private GroupBox groupBox3;
         private TextBox discounted_totaltxtbox;
         private TextBox discount_totaltxtbox;
@@ -1219,12 +1226,12 @@
         private Label label11;
         private Label label10;
         private TextBox changetxtbox;
-        private TextBox textBox9;
+        private TextBox cashrenderedtxtbox;
         private GroupBox groupBox5;
         private Button button7;
         private Button button9;
         private Button button8;
-        private Button button5;
+        private Button enter;
         private Button button18;
         private Button button20;
         private Button button21;
@@ -1237,15 +1244,15 @@
         private Button button12;
         private Button button13;
         private Button button6;
-        private Label label14;
+        private Label name11lbl;
         private PictureBox pictureBox16;
         private PictureBox pictureBox17;
-        private Label label13;
+        private Label name6lbl;
         private PictureBox pictureBox18;
         private PictureBox pictureBox19;
         private PictureBox pictureBox20;
-        private Label label12;
-        private Label label15;
+        private Label name1lbl;
+        private Label name16lbl;
         private PictureBox pictureBox11;
         private PictureBox pictureBox12;
         private PictureBox pictureBox6;
@@ -1263,22 +1270,22 @@
         private Label label16;
         private Label label17;
         private Label label18;
-        private Label label22;
-        private Label label21;
-        private Label label20;
-        private Label label19;
-        private Label label31;
-        private Label label32;
-        private Label label33;
-        private Label label34;
-        private Label label27;
-        private Label label28;
-        private Label label29;
-        private Label label30;
-        private Label label23;
-        private Label label24;
-        private Label label25;
-        private Label label26;
+        private Label name5lbl;
+        private Label name4lbl;
+        private Label name3lbl;
+        private Label name2lbl;
+        private Label name20lbl;
+        private Label name19lbl;
+        private Label name18lbl;
+        private Label name17lbl;
+        private Label name15lbl;
+        private Label name14lbl;
+        private Label name13lbl;
+        private Label name12lbl;
+        private Label name10lbl;
+        private Label name9lbl;
+        private Label name8lbl;
+        private Label name7lbl;
         private RadioButton with;
         private RadioButton Senior;
         private RadioButton nodisc;
