@@ -213,6 +213,16 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LPU_CAVITE {
+            get {
+                object obj = ResourceManager.GetObject("LPU_CAVITE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LUNCH_VALUE_MEAL_B {
             get {
                 object obj = ResourceManager.GetObject("LUNCH VALUE MEAL B", resourceCulture);
