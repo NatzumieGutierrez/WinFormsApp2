@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             Picture_Path = new PictureBox();
             name = new TextBox();
             label1 = new Label();
@@ -111,6 +112,7 @@
             label40 = new Label();
             openFileDialog1 = new OpenFileDialog();
             comboBox1 = new ComboBox();
+            contextMenuStrip1 = new ContextMenuStrip(components);
             ((System.ComponentModel.ISupportInitialize)Picture_Path).BeginInit();
             SuspendLayout();
             // 
@@ -893,6 +895,11 @@
             comboBox1.TabIndex = 90;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
             // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
+            // 
             // LESSON2ACT
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1077,5 +1084,6 @@
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private ContextMenuStrip contextMenuStrip1;
     }
 }
